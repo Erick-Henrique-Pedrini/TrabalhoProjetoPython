@@ -16,8 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from rest_framework import routers
-from django.urls import path
-from .views import (
+from django.urls import path, include
+from agronegocio.views import (
     PropriedadeViewSet, CulturaViewSet, FuncionarioViewSet,
     FornecedorViewSet, InsumoViewSet, PlantioViewSet,
     HistoricoPlantioViewSet, ColheitaViewSet

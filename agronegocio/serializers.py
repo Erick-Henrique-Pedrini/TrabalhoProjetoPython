@@ -1,3 +1,4 @@
+from rest_framework import serializers
 from .models import (
     Propriedade, Cultura, Funcionario, Fornecedor,
     Insumo, Plantio, HistoricoPlantio, Colheita
